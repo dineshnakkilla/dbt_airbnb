@@ -1,0 +1,26 @@
+airbnbproject:
+  outputs:
+    dev:
+      account: yvulnfq-rj76440
+      database: airbnb
+      password: Vamsimaniraju@101
+      role: ACCOUNTADMIN
+      schema: dev
+      threads: 4
+      type: snowflake
+      user: Dinesh101
+      warehouse: COMPUTE_WH
+  target: dev
+jaffle_shop:
+  outputs:
+    dev:
+      account: jnttdxb-bh34312
+      database: airbnb
+      password: doe
+      role: dbt_developers
+      schema: dev
+      threads: 16
+      type: snowflake
+      user: dbt_u1
+      warehouse: dbt_warehouse
+  target: dev
